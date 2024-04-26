@@ -1465,6 +1465,10 @@ a[data-toggle="collapse"] {
     background: #3b5998;
 }
 
+.ig .social_icon{
+    background: #E1306C;
+}
+
 .tw .social_icon {
     background: #00aced;
 }
@@ -1764,10 +1768,74 @@ button.main_bt {
     margin: 0;
 }
 
+
+
 .main_bt:hover,
 .main_bt:focus {
     background: #ff5722;
     color: #fff;
+}
+
+.main_bt_fb{
+    min-width: 125px;
+    height: auto;
+    float: left;
+    background: #1e27d0;
+    text-align: center;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+button.main_bt_fb {
+    float: none;
+    margin: 0;
+}
+
+.main_bt_fb:hover,
+.main_bt_fb:focus {
+    color: #fff;
+}
+
+a.main_bt_fb {
+    float: none;
+    margin: 0;
+}
+
+.main_bt_ig{
+    min-width: 125px;
+    height: auto;
+    float: left;
+    background: #E1306C;
+    text-align: center;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+button.main_bt_ig {
+    float: none;
+    margin: 0;
+}
+
+.main_bt_ig:hover,
+.main_bt_ig:focus {
+    color: #fff;
+}
+
+a.main_bt_ig {
+    float: none;
+    margin: 0;
 }
 
 .task_list li a {
