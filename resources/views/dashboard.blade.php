@@ -19,18 +19,20 @@
                <div class="sidebar_blog_2">
                   <h4>General</h4>
                   <ul class="list-unstyled components">
-                     <li class="active">
-                        <a href="{{route('home')}}" data-toggle="collapse" aria-expanded="false"><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
+                     <li>
+                        <a href="{{route('home')}}">
+                        <i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
                      </li>
                      <li>
                         <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-user orange_color"></i> <span>Usuarios</span></a>
                         <ul class="collapse list-unstyled" id="element">
-                           <li><a href="general_elements.html">> <span>Usuarios en el Sistema</span></a></li>
-                           <li><a href="media_gallery.html">> <span>Usuarios Activos</span></a></li>
+                           <li><a href="{{route('viewUsers')}}">> <span>Usuarios en el Sistema</span></a></li>
+                           <li><a href="{{route('activeUsers')}}">> <span>Usuarios Activos</span></a></li>
                         </ul>
                      </li>
                      <li>
-                        <a href="#element" data-toggle="collapse" aria-expanded="false"><i class="fa fa-file-text-o purple_color"></i> <span>Voucher</span></a>
+                        <a href="{{route('activeUsers')}}">
+                        <i class="fa fa-file-text-o purple_color"></i> <span>Vouchers</span></a>
                      </li>
                   </ul>
                </div>

@@ -11,6 +11,14 @@ class RoutesController extends Controller
         return view('home');
     }
 
+    public function viewUsers(){
+        return view('adminViews.adminSistemUsers');
+    }
+
+    public function activeUsers(){
+        return view('adminViews.adminActiveUsers');
+    }
+
     public function login(){
         return view('customerViews.customerLogin');
     }
